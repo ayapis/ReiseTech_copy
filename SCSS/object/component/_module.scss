@@ -9,10 +9,31 @@
   height: 200px;
   padding-top: 60px;
   padding-bottom: 10px;
-  background: red;
+  text-align: center;
 }
 
 .c-top__comment {
   font-size: 1.3rem;
+  font-weight: 700;
   text-align: center;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.c-service {
+  color: #fff;
+  background: #000;
+}
+
+.c-serviceIcon {
+  width: 230px;
+  height: 230px;
+  color: #000;
+  background: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
