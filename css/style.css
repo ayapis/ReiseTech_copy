@@ -471,12 +471,9 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-weight: 400;
   line-height: 1.6;
   font-family: "Noto Sans JP",MyYuGothicM,YuGothic,-apple-system,BlinkMacSystemFont,"Hiragino kaku Gothic ProN",Meiryo,Verdana,arial,helvetica,sans-serif;
-}
-
-a {
-  display: inline-block;
 }
 
 .c-button {
@@ -487,10 +484,23 @@ a {
   border-radius: 5%;
 }
 
+.c-wrap {
+  width: 95vw;
+  margin: auto;
+  max-width: 1078px;
+}
+
 .c-headerLogo {
   height: 30px;
   width: auto;
   margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .c-headerLogo {
+    height: auto;
+    margin-left: 20px;
+  }
 }
 
 .c-top {
@@ -510,10 +520,35 @@ a {
 }
 
 .c-service {
+  width: 100%;
   color: #fff;
   background: #000;
   padding: 64px 0px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .c-serviceWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.c-serviceBox {
+  margin-bottom: 40px;
+}
+
+.c-serviceBox:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .c-serviceBox {
+    width: 229px;
+  }
 }
 
 .c-serviceIcon {
@@ -545,27 +580,143 @@ a {
   width: 68vw;
   line-height: 1.7;
   font-weight: 700;
-  margin: 0px auto 40px;
+  margin: auto;
   text-align: left;
 }
 
-.c-serviceText:last-of-type {
-  margin: auto;
+@media (min-width: 768px) {
+  .c-serviceText {
+    width: 100%;
+  }
 }
 
 .c-pr {
   width: 100%;
   background: #D5F0F8;
-  padding: 32px 0px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .c-banner {
-  width: 95vw;
-  height: auto;
+  max-width: 562px;
+  margin: 32px 0px;
 }
 
-.l-mainHeader {
+.c-news {
+  margin: 64px auto;
+  border: 1px solid #C3C3C3;
+}
+
+.c-newsTitle {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #fff;
+  background: #2498B3;
+  padding: 5px;
+  text-align: center;
+}
+
+.c-newsList {
+  padding: 0px 20px;
+}
+
+.c-newsListBox {
+  border-bottom: 1px dotted #C3C3C3;
+  padding: 15px 0px;
+}
+
+.c-newsListBox:last-of-type {
+  border-bottom: none;
+}
+
+.c-newsDate {
+  display: block;
+  font-size: 1.4rem;
+  color: #696969;
+}
+
+.c-newsLink {
+  display: block;
+  color: #2498B3;
+}
+
+.c-newsLink a {
+  text-decoration: underline;
+}
+
+.c-footerMain {
+  text-align: center;
+  padding: 27px 0px;
+  background: #141E33;
+}
+
+.c-footerName {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.c-footeraddress {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.c-footerNavi {
+  width: 95vw;
+  margin: auto;
+  color: #000;
+  font-size: 1.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.c-footerNavi ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.c-footerNavi small {
+  color: #696969;
+  float: right;
+}
+
+@media (min-width: 768px) {
+  .break::before {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+.u-forpc {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .u-forpc {
+    display: block;
+  }
+}
+
+.l-footer {
+  width: 100%;
+  color: #fff;
+}
+
+.l-header {
   background: #fff;
   width: 100%;
   height: 50px;
@@ -573,5 +724,11 @@ a {
   top: 0;
   left: 0;
   z-index: 10;
+}
+
+@media (min-width: 768px) {
+  .l-header {
+    height: 70px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

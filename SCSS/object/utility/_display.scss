@@ -1,0 +1,9 @@
+.u-forpc {
+  display: none;
+}
+
+@include breakpoint ( pc ) {
+  .u-forpc {
+    display: block;
+  }
+}
