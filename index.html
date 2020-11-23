@@ -6,18 +6,31 @@
     <meta name="description" content="RaiseTechのホームページです。">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link href="https://fonts.googleapis.com/css2?family=Philosopher" rel="stylesheet">
     <!-- GoogleFontsの読み込み -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
     <!-- FontAwesomeの読み込み -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body>
     <header class="l-header">
-      <div class="c-headerTitle">
-        <a href="$"><h1><img class="c-headerLogo" src="images/header-logo.svg"></h1><p class="u-forpc">あああああ<br>いいいい</p></a>
-      </div>
+      <a href="$" class="c-headerTitle">
+        <h1><img class="c-headerLogo" src="images/header-logo.svg"></h1>
+        <p class="u-forpc c-headerText">最速で<strong>「稼げる」</strong>プロになる<br>エンジニアリングスクール</p>
+      </a>
+      <nav class="u-forpc c-headerNav">
+        <ul class="c-headerNavList">
+          <li class="c-headerNavItem"><a href="$">はじめての方へ</a></li>
+          <li class="c-headerNavItem"><a href="$">コースのご案内</a></li>
+          <li class="c-headerNavItem"><a href="$">卒業生の声</a></li>
+          <li class="c-headerNavItem"><a href="$">サポート</a></li>
+          <li class="c-headerNavItem"><a href="$">受講お申し込み</a></li>
+        </ul>
+      </nav>
     </header>
     <div class="c-top">
       <p class="c-top__comment">はじめまして。RaiseTech（レイズテック）は<br>最速で「稼げる」エンジニアになるための、<br>実践的なWebエンジニアリングスクールです</p>
@@ -67,15 +80,55 @@
     </div>
     <footer class="l-footer">
       <div class="c-footerMain">
-        <p class="c-footerLogo"><img src="images/footer-logo.svg"></p>
-        <p class="c-footerName">運営会社 : 株式会社RaiseTech</p>
-        <p class="c-footeraddress">奈良県生駒市谷田町1265番地20号</p>
+        <div class="u-forpc c-wrap">
+          <div class="c-footerMainNavWrap">
+            <section class="c-footerMainNav">
+              <h2 class="c-footerMainNavTtile">はじめての方へ</h2>
+              <ul class="c-footerMainNavList">
+                <li class="c-footerMainNavItem"><a href="$">マンガでわかるRaiseTech</a></li>
+                <li class="c-footerMainNavItem"><a href="$">サポート体制とトライアル受講</a></li>
+                <li class="c-footerMainNavItem"><a href="$">就職・転職支援制度</a></li>
+                <li class="c-footerMainNavItem"><a href="$">ご利用の流れ</a></li>
+              </ul>
+            </section>
+            <section class="c-footerMainNav">
+              <h2 class="c-footerMainNavTtile">コースのご案内</h2>
+              <ul class="c-footerMainNavList">
+                <li class="c-footerMainNavItem"><a href="$">WordPress副業コース</a></li>
+                <li class="c-footerMainNavItem"><a href="$">AWSフルコース</a></li>
+                <li class="c-footerMainNavItem"><a href="$">AWS自動化コース</a></li>
+                <li class="c-footerMainNavItem"><a href="$">Javaフルコース</a></li>
+                <li class="c-footerMainNavItem"><a href="$">Javaフレームワークコース</a></li>
+              </ul>
+            </section>
+            <section class="c-footerMainNav">
+              <h2 class="c-footerMainNavTtile">サポート・お申し込み</h2>
+              <ul class="c-footerMainNavList">
+                <li class="c-footerMainNavItem"><a href="$"></a>よくあるご質問</li>
+                <li class="c-footerMainNavItem"><a href="$"></a>お問い合わせ</li>
+                <li class="c-footerMainNavItem"><a href="$"></a>受講お申し込み</li>
+                <li class="c-footerMainNavItem"><a href="$"></a></li>
+              </ul>
+            </section>
+            <section class="c-footerMainNav">
+              <h2 class="c-footerMainNavTtile">卒業生の声</h2>
+              <ul class="c-footerMainNavList">
+                <li class="c-footerMainNavItem"><a href="$"></a>卒業生の声 一覧</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div class="c-wrap c-footerInfo">
+          <p class="c-footerLogo"><img src="images/footer-logo.svg"></p>
+          <p class="c-footerName">運営会社 : 株式会社RaiseTech</p>
+          <p class="c-footeraddress">奈良県生駒市谷田町1265番地20号</p>
+        </div>
       </div>
-      <div class="c-footerNavi">
-        <ul>
-          <li><a href="$">特定商取引法に関する表記</a></li>
-          <li><a href="$">プライバシーポリシー</a></li>
-          <li><a href="$">利用規約</a></li>
+      <div class="c-wrap c-footerSubNav">
+        <ul class="c-footerSubNavList">
+          <li class="c-footerNavItem"><a href="$">特定商取引法に関する表記</a></li>
+          <li class="c-footerNavItem"><a href="$">プライバシーポリシー</a></li>
+          <li class="c-footerNavItem"><a href="$">利用規約</a></li>
         </ul>
         <small>Copyright(C) RaiseTech inc. All Rights Reserved.</small>
       </div>

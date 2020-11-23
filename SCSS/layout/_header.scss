@@ -8,5 +8,7 @@
   z-index: 10;
   @include breakpoint ( pc ) {
     height: 70px;
+    display: flex;
+    justify-content: space-between;
   }
 }
