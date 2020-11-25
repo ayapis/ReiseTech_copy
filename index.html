@@ -18,17 +18,17 @@
 
   <body>
     <header class="l-header">
-      <a href="$" class="c-headerTitle">
-        <h1><img class="c-headerLogo" src="images/header-logo.svg"></h1>
-        <p class="u-forpc c-headerText">最速で<strong>「稼げる」</strong>プロになる<br>エンジニアリングスクール</p>
+      <a href="$" class="c-header__title">
+        <h1><img class="c-header__logo" src="images/header-logo.svg"></h1>
+        <p class="u-forpc c-header__text">最速で<strong>「稼げる」</strong>プロになる<br>エンジニアリングスクール</p>
       </a>
-      <nav class="u-forpc c-headerNav">
-        <ul class="c-headerNavList">
-          <li class="c-headerNavItem"><a href="$">はじめての方へ</a></li>
-          <li class="c-headerNavItem"><a href="$">コースのご案内</a></li>
-          <li class="c-headerNavItem"><a href="$">卒業生の声</a></li>
-          <li class="c-headerNavItem"><a href="$">サポート</a></li>
-          <li class="c-headerNavItem"><a href="$">受講お申し込み</a></li>
+      <nav class="u-forpc c-header__nav">
+        <ul class="c-header__navList">
+          <li class="c-header__navItem"><a href="$">はじめての方へ</a></li>
+          <li class="c-header__navItem"><a href="$">コースのご案内</a></li>
+          <li class="c-header__navItem"><a href="$">卒業生の声</a></li>
+          <li class="c-header__navItem"><a href="$">サポート</a></li>
+          <li class="c-header__navItem"><a href="$">受講お申し込み</a></li>
         </ul>
       </nav>
     </header>
@@ -37,98 +37,104 @@
       <a class="c-button" href="$">マンガでわかるReiseTech</a>
     </div>
     <div class="c-service">
-      <div class="c-wrap c-serviceWrap">
-        <div class="c-serviceBox">
-          <p class="c-serviceIcon"><i class="fas fa-dumbbell fa-6x fa-fw"></i></p>
-          <p class="c-serviceTitle">現場主義</p>
-          <p class="c-serviceText">「プログラム」だけでは稼げない！ 現場で求められる「技術」のみ教えます。</p>
+      <!-- このWrapはelementではないと考え、__で分けずキャメルケースでの区切りとしました。 -->
+      <div class="l-wrap c-serviceWrap">
+        <div class="c-service__box">
+          <p class="c-service__icon"><i class="fas fa-dumbbell fa-6x fa-fw"></i></p>
+          <p class="c-service__title">現場主義</p>
+          <p class="c-service__text">「プログラム」だけでは稼げない！ 現場で求められる「技術」のみ教えます。</p>
         </div>
-        <div class="c-serviceBox">
-          <p class="c-serviceIcon"><i class="fas fa-user-check fa-6x fa-fw"></i></p>
-          <p class="c-serviceTitle">現役講師</p>
-          <p class="c-serviceText">「今、求められている技術」をリアルタイムに教えてくれる、現役の技術者だけが講師です。</p>
+        <div class="c-service__box">
+          <p class="c-service__icon"><i class="fas fa-user-check fa-6x fa-fw"></i></p>
+          <p class="c-service__title">現役講師</p>
+          <p class="c-service__text">「今、求められている技術」をリアルタイムに教えてくれる、現役の技術者だけが講師です。</p>
         </div>
-        <div class="c-serviceBox">
-          <p class="c-serviceIcon"><i class="fas fa-life-ring fa-6x fa-fw"></i></p>
-          <p class="c-serviceTitle">徹底サポート</p>
-          <p class="c-serviceText">期間中の質疑応答無制限！ 個別進捗管理！ 挫折させないサポートを徹底します。</p>
+        <div class="c-service__box">
+          <p class="c-service__icon"><i class="fas fa-life-ring fa-6x fa-fw"></i></p>
+          <p class="c-service__title">徹底サポート</p>
+          <p class="c-service__text">期間中の質疑応答無制限！ 個別進捗管理！ 挫折させないサポートを徹底します。</p>
         </div>
       </div>
     </div>
     <div class="c-pr">
-      <a href="$"><img src="images/new-student-banner.jpg" alt="学割のバナー" class="c-wrap c-banner"></a>
+      <aside class="l-wrap">
+        <a href="$"><img src="images/new-student-banner.jpg" alt="学割のバナー"  class="c-banner"></a>
+      </aside>
     </div>
-    <section class="c-wrap c-news">
-      <h2 class="c-newsTitle">新着情報</h2>
-      <ul class="c-newsList">
-        <li class="c-newsListBox">
-          <span class="c-newsDate">2020年10月25日</span>
-          <span class="c-newsLink"><a href="$">LINE公式アカウントが出来ました！</a></span>
+    <section class="l-wrap c-news">
+      <h2 class="c-news__title">新着情報</h2>
+      <ul class="c-news__list">
+        <li class="c-news__listBox">
+          <span class="c-news__date">2020年10月25日</span>
+          <span class="c-news__link"><a href="$">LINE公式アカウントが出来ました！</a></span>
         </li>
-        <li class="c-newsListBox">
-          <span class="c-newsDate">2020年10月21日</span>
-          <span class="c-newsLink"><a href="$">TV出演&受講生600人突破記念キャンペーン開催！！(終了)</a></span>
+        <li class="c-news__listBox">
+          <span class="c-news__date">2020年10月21日</span>
+          <span class="c-news__link"><a href="$">TV出演&受講生600人突破記念キャンペーン開催！！(終了)</a></span>
         </li>
-        <li class="c-newsListBox">
-          <span class="c-newsDate">2020年10月21日</span>
-          <span class="c-newsLink"><a href="$">【重要】価格改定のお知らせ</a></span>
+        <li class="c-news__listBox">
+          <span class="c-news__date">2020年10月21日</span>
+          <span class="c-news__link"><a href="$">【重要】価格改定のお知らせ</a></span>
         </li>
       </ul>
     </section>
     <div class="c-pr">
-      <a href="$"><img src="images/new-banner_template-05.jpg" alt="早割のバナー" class="c-wrap c-banner"></a>
+      <aside class="l-wrap">
+        <a href="$"><img src="images/new-banner_template-05.jpg" alt="早割のバナー"  class="c-banner"></a>
+      </aside>
     </div>
     <footer class="l-footer">
+      <!-- このdivはelementではないと考え、__で分けずキャメルケースでの区切りとしました。 -->
       <div class="c-footerMain">
-        <div class="u-forpc c-wrap">
-          <div class="c-footerMainNavWrap">
-            <section class="c-footerMainNav">
-              <h2 class="c-footerMainNavTtile">はじめての方へ</h2>
-              <ul class="c-footerMainNavList">
-                <li class="c-footerMainNavItem"><a href="$">マンガでわかるRaiseTech</a></li>
-                <li class="c-footerMainNavItem"><a href="$">サポート体制とトライアル受講</a></li>
-                <li class="c-footerMainNavItem"><a href="$">就職・転職支援制度</a></li>
-                <li class="c-footerMainNavItem"><a href="$">ご利用の流れ</a></li>
+        <div class="u-forpc l-wrap">
+          <!-- このWrapはelementではないと考え、__で分けずキャメルケースでの区切りとしました。 -->
+          <div class="c-footerMainWrap">
+            <section class="c-footerMain__nav">
+              <h2 class="c-footerMain__navTtile">はじめての方へ</h2>
+              <ul class="c-footerMain__navList">
+                <li class="c-footerMain__navItem"><a href="$">マンガでわかるRaiseTech</a></li>
+                <li class="c-footerMain__navItem"><a href="$">サポート体制とトライアル受講</a></li>
+                <li class="c-footerMain__navItem"><a href="$">就職・転職支援制度</a></li>
+                <li class="c-footerMain__navItem"><a href="$">ご利用の流れ</a></li>
               </ul>
             </section>
-            <section class="c-footerMainNav">
-              <h2 class="c-footerMainNavTtile">コースのご案内</h2>
-              <ul class="c-footerMainNavList">
-                <li class="c-footerMainNavItem"><a href="$">WordPress副業コース</a></li>
-                <li class="c-footerMainNavItem"><a href="$">AWSフルコース</a></li>
-                <li class="c-footerMainNavItem"><a href="$">AWS自動化コース</a></li>
-                <li class="c-footerMainNavItem"><a href="$">Javaフルコース</a></li>
-                <li class="c-footerMainNavItem"><a href="$">Javaフレームワークコース</a></li>
+            <section class="c-footerMain__nav">
+              <h2 class="c-footerMain__navTtile">コースのご案内</h2>
+              <ul class="c-footerMain__navList">
+                <li class="c-footerMain__navItem"><a href="$">WordPress副業コース</a></li>
+                <li class="c-footerMain__navItem"><a href="$">AWSフルコース</a></li>
+                <li class="c-footerMain__navItem"><a href="$">AWS自動化コース</a></li>
+                <li class="c-footerMain__navItem"><a href="$">Javaフルコース</a></li>
+                <li class="c-footerMain__navItem"><a href="$">Javaフレームワークコース</a></li>
               </ul>
             </section>
-            <section class="c-footerMainNav">
-              <h2 class="c-footerMainNavTtile">サポート・お申し込み</h2>
-              <ul class="c-footerMainNavList">
-                <li class="c-footerMainNavItem"><a href="$"></a>よくあるご質問</li>
-                <li class="c-footerMainNavItem"><a href="$"></a>お問い合わせ</li>
-                <li class="c-footerMainNavItem"><a href="$"></a>受講お申し込み</li>
-                <li class="c-footerMainNavItem"><a href="$"></a></li>
+            <section class="c-footerMain__nav">
+              <h2 class="c-footerMain__navTtile">サポート・お申し込み</h2>
+              <ul class="c-footerMain__navList">
+                <li class="c-footerMain__navItem"><a href="$">よくあるご質問</a></li>
+                <li class="c-footerMain__navItem"><a href="$">お問い合わせ</a></li>
+                <li class="c-footerMain__navItem"><a href="$">受講お申し込み</a></li>
               </ul>
             </section>
-            <section class="c-footerMainNav">
-              <h2 class="c-footerMainNavTtile">卒業生の声</h2>
-              <ul class="c-footerMainNavList">
-                <li class="c-footerMainNavItem"><a href="$"></a>卒業生の声 一覧</li>
+            <section class="c-footerMain__nav">
+              <h2 class="c-footerMain__navTtile">卒業生の声</h2>
+              <ul class="c-footerMain__navList">
+                <li class="c-footerMain__navItem"><a href="$">卒業生の声 一覧</a></li>
               </ul>
             </section>
           </div>
         </div>
-        <div class="c-wrap c-footerInfo">
-          <p class="c-footerLogo"><img src="images/footer-logo.svg"></p>
-          <p class="c-footerName">運営会社 : 株式会社RaiseTech</p>
-          <p class="c-footeraddress">奈良県生駒市谷田町1265番地20号</p>
+        <div class="l-wrap c-footerInfo">
+          <p class="c-footerInfo__logo"><img src="images/footer-logo.svg"></p>
+          <p class="c-footerInfo__name">運営会社 : 株式会社RaiseTech</p>
+          <p class="c-footerInfo__address">奈良県生駒市谷田町1265番地20号</p>
         </div>
       </div>
-      <div class="c-wrap c-footerSubNav">
-        <ul class="c-footerSubNavList">
-          <li class="c-footerNavItem"><a href="$">特定商取引法に関する表記</a></li>
-          <li class="c-footerNavItem"><a href="$">プライバシーポリシー</a></li>
-          <li class="c-footerNavItem"><a href="$">利用規約</a></li>
+      <div class="l-wrap c-footerSub__nav">
+        <ul class="c-footerSub__navList">
+          <li class="c-footerSub__navItem"><a href="$">特定商取引法に関する表記</a></li>
+          <li class="c-footerSub__navItem"><a href="$">プライバシーポリシー</a></li>
+          <li class="c-footerSub__navItem"><a href="$">利用規約</a></li>
         </ul>
         <small>Copyright(C) RaiseTech inc. All Rights Reserved.</small>
       </div>
