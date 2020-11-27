@@ -71,7 +71,7 @@
 
 .c-pr {
   width: 100%;
-  background: $banner-bg;
+  background: $color-bannerBg;
   text-align: center;
   display: flex;
   align-items: center;
@@ -86,14 +86,14 @@
 
 .c-news {
   margin: 64px auto;
-  border: 1px solid $border-color;
+  border: 1px solid $color-border;
 }
 
 .c-news__title {
   font-size: 2.4rem;
   font-weight: 600;
   color: #fff;
-  background: $base-color;
+  background: $color-base;
   padding: 5px;
   text-align: center;
 }
@@ -103,7 +103,7 @@
 }
 
 .c-news__listBox {
-  border-bottom: 1px dotted $border-color;
+  border-bottom: 1px dotted $color-border;
   padding: 15px 0px;
   &:last-of-type {
     border-bottom: none;
@@ -117,7 +117,7 @@
 .c-news__date {
   display: block;
   font-size: 1.4rem;
-  color: $text-color;
+  color: $color-text;
   @include breakpoint ( pc ) {
     font-size: 1.8rem;
     margin-right: 40px;
@@ -126,7 +126,7 @@
 
 .c-news__link {
   display: block;
-  color: $base-color;
+  color: $color-base;
   font-size: 1.6rem;
   transition: .3s;
   a {
@@ -135,7 +135,7 @@
   @include breakpoint ( pc ) {
     font-size: 1.8rem;
     &:hover {
-      background: $hover-color;
+      background: $color-hover;
     }
   }
 }
@@ -169,7 +169,7 @@
   margin-bottom: 7px;
   transition: .3s;
   &:hover {
-    color: $hover-color2;
+    color: $color-hover-2;
   }
 }
 
@@ -205,7 +205,7 @@
     justify-content: space-between;
   }
   small {
-    color: $text-color;
+    color: $color-text;
     margin-top: 9px;
     float: right;
     @include breakpoint ( pc ) {
@@ -224,7 +224,7 @@
   a {
     transition: .3s;
     &:hover {
-      color: $hover-color2;
+      color: $color-hover-2;
     }
   }
 }
