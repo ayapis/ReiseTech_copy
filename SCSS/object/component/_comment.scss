@@ -1,0 +1,10 @@
+.c-comment-service {
+  width: 68vw;
+  line-height: 1.7;
+  font-weight: 700;
+  margin: auto;
+  text-align: left;
+  @include breakpoint ( pc ) {
+    width: 100%;
+  }
+}

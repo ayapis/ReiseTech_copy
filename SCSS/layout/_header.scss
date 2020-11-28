@@ -1,4 +1,8 @@
-.l-header{
+// ページ単位で唯一の要素かを判断基準に設定
+// クラスではなく、idにしても支障がないか
+ // 具体的には、index.htmlでクラス名を検索したときに検索結果が1つになることが条件
+
+.l-header {
 	background:#fff;
   width: 100%;
   height: 50px;
@@ -11,4 +15,35 @@
     display: flex;
     justify-content: space-between;
   }
+}
+
+.l-header__title {
+  @include breakpoint ( pc ) {
+    display: flex;
+    margin: 15px 0 10px;
+  }
+}
+
+.l-header__logo {
+  height: 30px;
+  width: auto;
+  margin: 10px;
+  @include breakpoint ( pc ) {
+    height: auto;
+    margin: 0 16px 0 20px;
+  }
+}
+
+.l-header__text {
+  color: $color-text-2;
+  font-size: 1.4rem;
+  font-weight: 900;
+  line-height: 1.3;
+  strong {
+    font-size: 1.8rem;
+  }
+}
+
+.l-header__list {
+  display: flex;
 }

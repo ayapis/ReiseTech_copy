@@ -2,3 +2,28 @@
   width: 100%;
   color: #fff;
 }
+
+.l-footer__main {
+  text-align: center;
+  padding: 27px 0px;
+  background: #141E33;
+}
+
+.l-footer__sub {
+  color: #000;
+  font-size: 1.4rem;
+  @include breakpoint ( pc ) {
+    height: 39px;
+    line-height: 39px;
+    display: flex;
+    justify-content: space-between;
+  }
+  small {
+    color: $color-text;
+    margin-top: 9px;
+    float: right;
+    @include breakpoint ( pc ) {
+      margin-top: 0px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.p-news {
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  @include breakpoint ( pc ) {
+    padding: 64px;
+  }
+}
+
+.p-news__list {
+  padding: 0px 20px;
+}

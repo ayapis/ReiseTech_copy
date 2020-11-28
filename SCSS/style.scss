@@ -1,17 +1,27 @@
+// base
 @import "foundation/_reset";
 @import "foundation/_base";
 @import "foundation/_variable";
 @import "foundation/_mixin";
 
+// layout
 @import "layout/_footer";
 @import "layout/_header";
-@import "layout/_main";
-@import "layout/_sidebar";
-@import "layout/_wrap";
 
-@import "object/component/_header";
+@import "object/component/_wrap";
+@import "object/component/_banner";
+@import "object/component/_box";
 @import "object/component/_button";
+@import "object/component/_comment";
+@import "object/component/_header";
+@import "object/component/_icon";
 @import "object/component/_module";
+@import "object/component/_title";
+
+@import "object/project/_news";
+@import "object/project/_pr";
+@import "object/project/_service";
+@import "object/project/_top";
 
 @import "object/utility/_break";
 @import "object/utility/_display";

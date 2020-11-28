@@ -1,38 +1,9 @@
-.c-header__title {
-  @include breakpoint ( pc ) {
-    display: flex;
-    margin: 15px 0 10px;
-  }
-}
-
-.c-header__logo {
-  height: 30px;
-  width: auto;
-  margin: 10px;
-  @include breakpoint ( pc ) {
-    height: auto;
-    margin: 0 16px 0 20px;
-  }
-}
-
-.c-header__text {
-  color: $text-color2;
-  font-size: 1.4rem;
-  font-weight: 900;
-  line-height: 1.3;
-  strong {
-    font-size: 1.8rem;
-  }
-}
-
-.c-header__navList {
-  display: flex;
-}
-
-.c-header__navItem {
+// .c-navItemとするか迷ったが、このレイアウトに汎用性がない（他の場所で使う可能性が低い）と判断
+// もし別の場所で使用することになれば、.c-navItemに変更することを検討
+.c-header__item {
   height: 70px;
   line-height: 70px;
-  color: $text-color2;
+  color: $color-text-2;
   font-weight: 700;
   a {
     display: block;
@@ -42,13 +13,13 @@
     transition: .3s;
   }
   &:hover {
-    background: $hover-color;
+    background: $color-hover;
   }
   &:last-of-type {
     color: #fff;
-    background: $base-color;
+    background: $color-base;
     &:hover {
-      background: $base-color;
+      background: $color-base;
     }
   }
 }
