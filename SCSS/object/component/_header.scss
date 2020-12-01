@@ -1,6 +1,7 @@
-// .c-navItemとするか迷ったが、このレイアウトに汎用性がない（他の場所で使う可能性が低い）と判断
-// もし別の場所で使用することになれば、.c-navItemに変更することを検討
-.c-header__item {
+// .l-itemとするか迷いましたが、
+// layoutレイヤーはページ単位で唯一の要素と定義されているため、componentにしました。
+
+.c-item {
   height: 70px;
   line-height: 70px;
   color: $color-text-2;

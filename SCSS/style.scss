@@ -8,21 +8,27 @@
 @import "layout/_footer";
 @import "layout/_header";
 
-@import "object/component/_wrap";
+// component
 @import "object/component/_banner";
 @import "object/component/_box";
 @import "object/component/_button";
 @import "object/component/_comment";
+@import "object/component/_footer";
 @import "object/component/_header";
 @import "object/component/_icon";
 @import "object/component/_module";
 @import "object/component/_title";
 
+// project
 @import "object/project/_news";
 @import "object/project/_pr";
 @import "object/project/_service";
 @import "object/project/_top";
 
+// utillity
 @import "object/utility/_break";
 @import "object/utility/_display";
+@import "object/utility/_margin";
+@import "object/utility/_wrap";
+
 
