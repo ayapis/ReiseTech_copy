@@ -6,3 +6,17 @@
   padding: 64px 0px;
   text-align: center;
 }
+
+// 元々「.c-box-service」としていましたが、
+// 中身が固有のスタイリングになっていて、「コンポーネント単独で独立して再利用できる」という
+// コンポーネントの前提に沿わないと判断してプロジェクトに移しました。
+
+.p-service_box {
+  margin-bottom: 40px;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  @include breakpoint ( pc ) {
+    width: 229px;
+  }
+}

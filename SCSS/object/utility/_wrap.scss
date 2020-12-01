@@ -19,6 +19,12 @@
 
 .u-wrap-footer {
   display: flex;
+  text-align: left;
   justify-content: space-between;
   padding: 13px 0px 35px;
+}
+
+.u-wrap-footer-sub {
+  display: flex;
+  flex-wrap: wrap;
 }

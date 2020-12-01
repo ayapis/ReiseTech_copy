@@ -7,6 +7,19 @@
   }
 }
 
-.p-news__list {
-  padding: 0px 20px;
+
+// 元々「.c-box-news」としていましたが、
+// 中身が固有のスタイリングになっていて、「コンポーネント単独で独立して再利用できる」という
+// コンポーネントの前提に沿わないと判断してプロジェクトに移しました。
+
+.p-news_item {
+  border-bottom: 1px dotted $color-border;
+  padding: 15px 0px;
+  &:last-of-type {
+    border-bottom: none;
+  }
+  @include breakpoint ( pc ) {
+    display: flex;
+    padding: 20px 0px;
+  }
 }

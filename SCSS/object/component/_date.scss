@@ -1,0 +1,9 @@
+.c-date {
+  display: block;
+  font-size: 1.4rem;
+  color: $color-text;
+  @include breakpoint ( pc ) {
+    font-size: 1.8rem;
+    margin-right: 40px;
+  }
+}

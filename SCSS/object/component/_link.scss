@@ -1,0 +1,15 @@
+.c-link {
+  display: block;
+  color: $color-base;
+  font-size: 1.6rem;
+  transition: .3s;
+  a {
+    text-decoration: underline;
+  }
+  @include breakpoint ( pc ) {
+    font-size: 1.8rem;
+    &:hover {
+      background: $color-hover;
+    }
+  }
+}
