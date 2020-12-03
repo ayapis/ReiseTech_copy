@@ -1,8 +1,14 @@
 .c-button {
+  display: inline-block;
   font-weight: 700;
   color: #ffffff;
-  background: $color-base;
+  background: #2BB8D9;
   padding: 12px 18px;
-  border: 1px solid $color-base;
+  border: 1px solid #2BB8D9;
   border-radius: 4px;
+}
+
+.c-button-dark {
+  background: $color-base;
+  border: 1px solid $color-base;
 }

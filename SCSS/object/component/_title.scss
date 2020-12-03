@@ -1,9 +1,10 @@
 .c-title {
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .c-title-service {
+  font-weight: 700;
   margin: 10px 0px;
 }
 
@@ -17,5 +18,34 @@
 
 .c-title-footer {
   font-size: 1.8rem;
+  font-weight: 700;
   margin-bottom: 16px;
+}
+
+.c-title-main {
+  color: $color-mainFont;
+  text-align: center;
+  position: relative;
+  @include breakpoint ( pc ) {
+    font-size: 3.2rem;
+  }
+  &::before {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background: #000;
+    content: '';
+  }
+}
+
+.c-title-sub {
+  font-size: 2.1rem;
+  @include breakpoint ( pc ) {
+    font-size: 3.4rem;
+  }
 }

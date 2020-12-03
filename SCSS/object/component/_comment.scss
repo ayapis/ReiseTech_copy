@@ -1,4 +1,10 @@
 .c-comment {
+  color: $color-mainFont;
+  line-height: 1.9;
+}
+
+.c-comment-service {
+  color: #fff;
   width: 68vw;
   line-height: 1.7;
   font-weight: 700;
