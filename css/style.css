@@ -618,14 +618,15 @@ body {
   font-weight: 700;
   color: #ffffff;
   background: #2BB8D9;
-  padding: 12px 18px;
   border: 1px solid #2BB8D9;
   border-radius: 4px;
+  padding: 15px 23px;
 }
 
 .c-button-dark {
   background: #2498B3;
   border: 1px solid #2498B3;
+  padding: 12px 18px;
 }
 
 .c-comment {
@@ -718,11 +719,11 @@ body {
 
 .c-item-header:last-of-type {
   color: #fff;
-  background: #2498B3;
+  background: #2BB8D9;
 }
 
 .c-item-header:last-of-type a:hover {
-  background: #2498B3;
+  background: #2BB8D9;
 }
 
 .c-item-footer {
@@ -792,15 +793,25 @@ body {
 
 .c-title-main::before {
   position: absolute;
-  bottom: 0px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 30px;
-  height: 5px;
+  bottom: -10px;
+  left: calc(50% - 41px);
+  width: 40px;
+  height: 4px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  background: #000;
+  background: #2498B3;
+  content: '';
+}
+
+.c-title-main::after {
+  position: absolute;
+  bottom: -10px;
+  right: calc(50% - 41px);
+  width: 40px;
+  height: 4px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: #a2d729;
   content: '';
 }
 
@@ -918,6 +929,10 @@ body {
 
 .u-mb7 {
   margin-bottom: 7px;
+}
+
+.u-mb50 {
+  margin-bottom: 50px;
 }
 
 .u-pd-rl {
