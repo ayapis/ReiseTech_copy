@@ -19,9 +19,11 @@
 @import "object/component/_link";
 @import "object/component/_module";
 @import "object/component/_title";
+@import "object/component/_wrap";
 
 // project
 @import "object/project/_feature";
+@import "object/project/_gnavi";
 @import "object/project/_news";
 @import "object/project/_pr";
 @import "object/project/_service";
@@ -32,6 +34,5 @@
 @import "object/utility/_display";
 @import "object/utility/_margin";
 @import "object/utility/_padding";
-@import "object/utility/_wrap";
 
 

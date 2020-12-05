@@ -8,30 +8,6 @@
   }
 }
 
-.c-item-header {
-  height: 70px;
-  line-height: 70px;
-  color: $color-text-2;
-  a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 0 15px;
-    &:hover {
-      background: $color-hover;
-    }
-  }
-  &:last-of-type {
-    color: #fff;
-    background: $color-base;
-    a {
-      &:hover {
-        background: $color-base;
-      }
-    }
-  }
-}
-
 .c-item-footer {
   font-size: 1.4rem;
   a{

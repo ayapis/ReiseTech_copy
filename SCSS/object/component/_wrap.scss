@@ -1,23 +1,23 @@
 // wrapのレイヤーは非常に迷ったが、「調整のための便利クラス」であるutillityが最適と判断しました。
 
-.u-wrap {
+.c-wrap {
   width: 95vw;
   margin: auto;
   max-width: 1078px;
 }
 
-.u-wrap-service {
+.c-wrap-service {
   @include breakpoint ( pc ) {
     display: flex;
     justify-content: space-around;
   }
 }
 
-.u-wrap-news {
+.c-wrap-news {
   border: 1px solid $color-border;
 }
 
-.u-wrap-feature {
+.c-wrap-feature {
   margin-bottom: 35px;
   @include breakpoint ( pc ) {
     display: flex;
@@ -31,14 +31,14 @@
   }
 }
 
-.u-wrap-footer {
+.c-wrap-footer {
   display: flex;
   text-align: left;
   justify-content: space-between;
   padding: 13px 0px 35px;
 }
 
-.u-wrap-footer-sub {
+.c-wrap-footer-sub {
   display: flex;
   flex-wrap: wrap;
 }
