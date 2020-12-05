@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../SCSS/object/utility/break.scss"
-    ],
-    "names": [],
-    "file": "break.css"
-}

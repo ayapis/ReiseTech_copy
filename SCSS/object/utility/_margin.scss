@@ -9,3 +9,13 @@
 .u-mb50 {
   margin-bottom: 50px;
 }
+
+.u-mt50 {
+  margin-top: 50px;
+}
+
+.u-mt70__pc {
+  @include breakpoint ( pc ) {
+    margin-top: 70px;
+  }
+}

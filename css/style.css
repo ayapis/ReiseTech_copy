@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! destyle.css v2.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
 /* ============================================ */
@@ -915,6 +916,67 @@ body {
   background: #2498B3;
 }
 
+.p-hero {
+  height: 320px;
+  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .p-hero {
+    height: 650px;
+  }
+}
+
+.p-hero_layer1 {
+  position: absolute;
+  top: 0;
+  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");
+  width: 100%;
+  height: 100%;
+  background-position: center -30px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+@media (min-width: 768px) {
+  .p-hero_layer1 {
+    position: absolute;
+    top: 0;
+    background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+
+.p-hero_layer2 {
+  position: absolute;
+  top: 0;
+  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
+  width: 100%;
+  height: 100%;
+  background-position: center -30px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+@media (min-width: 768px) {
+  .p-hero_layer2 {
+    position: absolute;
+    top: 0;
+    background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+  }
+}
+
 .p-news {
   width: 100%;
 }
@@ -1027,6 +1089,16 @@ body {
 
 .u-mb50 {
   margin-bottom: 50px;
+}
+
+.u-mt50 {
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .u-mt70__pc {
+    margin-top: 70px;
+  }
 }
 
 .u-pd-rl {
