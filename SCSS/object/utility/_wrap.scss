@@ -17,6 +17,20 @@
   border: 1px solid $color-border;
 }
 
+.u-wrap-feature {
+  margin-bottom: 35px;
+  @include breakpoint ( pc ) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  &:nth-of-type(even) {
+    @include breakpoint ( pc ) {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
 .u-wrap-footer {
   display: flex;
   text-align: left;
@@ -27,9 +41,4 @@
 .u-wrap-footer-sub {
   display: flex;
   flex-wrap: wrap;
-}
-
-.u-column {
-  display: inline-flex;
-  flex-direction: column;
 }

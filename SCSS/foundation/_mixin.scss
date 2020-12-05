@@ -3,5 +3,10 @@
     @media ( min-width: 768px ) {
       @content ;
     }
-  } 
+  }
+  @if $point == wide {
+    @media ( min-width: 1200px ) {
+      @content ;
+    }
+  }
 }

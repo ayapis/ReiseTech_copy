@@ -1,9 +1,13 @@
 .u-forpc {
   display: none;
+  @include breakpoint ( pc ) {
+    display: block;
+  }
 }
 
-@include breakpoint ( pc ) {
-  .u-forpc {
+.u-forwide {
+  display: none;
+  @include breakpoint ( wide ) {
     display: block;
   }
 }
