@@ -1,6 +1,6 @@
 .p-hero {
   height: 320px;
-  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero3.png");
+  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero3.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -21,7 +21,7 @@
 .p-hero_layer1 {
   position: absolute;
   top: 0;
-  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
+  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
   width: 100%;
   height: 100%;
   background-position: center -30px;
@@ -35,7 +35,7 @@
   @include breakpoint ( pc ) {
     position: absolute;
     top: 0;
-    background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
+    background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
     width: 100%;
     height: 100%;
     padding-top: 80px;
@@ -50,7 +50,7 @@
 .p-hero_layer2 {
   position: absolute;
   top: 0;
-  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");
+  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");
   width: 100%;
   height: 100%;
   background-position: center -30px;
@@ -62,7 +62,7 @@
   @include breakpoint ( pc ) {
     position: absolute;
     top: 0;
-    background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");
+    background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");
     width: 100%;
     height: 100%;
     background-position: center center;

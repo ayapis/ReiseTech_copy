@@ -770,6 +770,10 @@ body {
   top: 35px;
 }
 
+.is-active {
+  display: block;
+}
+
 .c-title {
   font-size: 2.4rem;
   font-weight: 900;
@@ -952,9 +956,22 @@ body {
   background: #2498B3;
 }
 
+.p-gnavi-ham ul {
+  display: block;
+}
+
+.p-gnavi-ham ul li {
+  height: 45px;
+  background: #fff;
+}
+
+.p-gnavi-ham ul li:last-of-type {
+  display: none;
+}
+
 .p-hero {
   height: 320px;
-  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero3.png");
+  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero3.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -971,7 +988,7 @@ body {
 .p-hero_layer1 {
   position: absolute;
   top: 0;
-  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
+  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
   width: 100%;
   height: 100%;
   background-position: center -30px;
@@ -990,7 +1007,7 @@ body {
   .p-hero_layer1 {
     position: absolute;
     top: 0;
-    background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
+    background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
     width: 100%;
     height: 100%;
     padding-top: 80px;
@@ -1010,7 +1027,7 @@ body {
 .p-hero_layer2 {
   position: absolute;
   top: 0;
-  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");
+  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");
   width: 100%;
   height: 100%;
   background-position: center -30px;
@@ -1028,7 +1045,7 @@ body {
   .p-hero_layer2 {
     position: absolute;
     top: 0;
-    background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");
+    background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");
     width: 100%;
     height: 100%;
     background-position: center center;
@@ -1104,7 +1121,7 @@ body {
 
 .p-top {
   width: 100%;
-  padding: 9px 0px 13px;
+  padding: 23px 0px 13px;
   text-align: center;
   background: #fff;
 }

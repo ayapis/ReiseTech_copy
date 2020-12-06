@@ -25,3 +25,16 @@
     }
   }
 }
+
+.p-gnavi-ham {
+  ul {
+    display: block;
+    li {
+      height: 45px;
+      background: #fff;
+      &:last-of-type {
+        display: none;
+      }
+    }
+  }
+}
