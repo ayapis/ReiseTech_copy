@@ -1,0 +1,24 @@
+.nav_toggle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.nav_toggle i {
+  left: 14px;
+  width: 23px;
+  height: 2px;
+  background-color: $color-base_dark;
+  position: absolute;
+  // transition: transform .5s, opacity .5s;
+}
+
+.nav_toggle i:nth-child(1) {
+  top: 15px;
+}
+.nav_toggle i:nth-child(2) {
+  top: 25px;
+}
+.nav_toggle i:nth-child(3) {
+  top: 35px;
+}

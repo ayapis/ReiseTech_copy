@@ -9,4 +9,14 @@
       @content ;
     }
   }
+  @if $point == sp {
+    @media ( max-width: 767px ) {
+      @content ;
+    }
+  }
+  @if $point == sp {
+    @media ( max-width: 767px ) {
+      @content ;
+    }
+  }
 }

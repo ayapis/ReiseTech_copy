@@ -11,3 +11,9 @@
     display: block;
   }
 }
+
+.u-fornallow {
+  @include breakpoint ( wide ) {
+    display: none;
+  }
+}
