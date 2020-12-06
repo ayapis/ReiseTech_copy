@@ -3,16 +3,30 @@
 // .p-topに変更
 .p-top {
   width: 100%;
-  height: 200px;
-  padding-top: 60px;
-  padding-bottom: 10px;
+  // height: 150px;
+  padding: 9px 0px 13px;
   text-align: center;
+  background: #fff;
+  @include breakpoint ( pc ) {
+    width: auto;
+    max-width: 530px;
+    padding: 43px 40px 19px;
+  }
+}
+
+.p-top__logo {
+  width: 280px;
+  margin: auto;
 }
 
 .p-top__comment {
   font-size: 1.3rem;
   font-weight: 700;
   text-align: center;
-  margin-top: 8px;
-  margin-bottom: 10px;
+  @include breakpoint ( pc ) {
+    font-size: 1.6rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
 }
