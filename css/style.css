@@ -956,6 +956,19 @@ body {
   background: #2498B3;
 }
 
+.p-gnavi-ham ul {
+  display: block;
+}
+
+.p-gnavi-ham ul li {
+  height: 45px;
+  background: #fff;
+}
+
+.p-gnavi-ham ul li:last-of-type {
+  display: none;
+}
+
 .p-hero {
   height: 320px;
   background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero3.png");
@@ -1151,7 +1164,7 @@ body {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .u-forpc {
     display: block;
   }
@@ -1177,7 +1190,13 @@ body {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .u-forpc-wide {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
   .u-forpc-wide {
     display: block;
   }

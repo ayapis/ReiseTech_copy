@@ -1,7 +1,7 @@
 // 768px以上1199px以下のとき表示
 .u-forpc {
   display: none;
-  @include breakpoint ( pc-wide ) {
+  @include breakpoint ( pc ) {
     display: block;
   }
 }
@@ -14,7 +14,7 @@
   }
 }
 
-// 1119px以下のとき表示
+// 1200px以上のとき非表示
 .u-forsp-pc {
   @include breakpoint ( wide ) {
     display: none;
@@ -24,7 +24,10 @@
 // 768px以上のとき表示
 .u-forpc-wide {
   display: none;
-  @include breakpoint ( pc-wide ) {
+  @include breakpoint ( pc ) {
+    display: block;
+  }
+  @include breakpoint ( wide ) {
     display: block;
   }
 }

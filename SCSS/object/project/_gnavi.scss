@@ -27,8 +27,7 @@
 }
 
 .p-gnavi-ham {
-  @include breakpoint ( sp ) {
-    display: none;
+    // display: none;
     ul {
       display: block;
       li {
@@ -39,5 +38,4 @@
         }
       }
     }
-  }
 }

@@ -1,11 +1,16 @@
 @mixin breakpoint( $point ) {
+  @if $point == pc {
+    @media ( min-width: 768px ) and ( max-width:1199px) {
+      @content ;
+    }
+  }
   @if $point == wide {
     @media ( min-width: 1200px ) {
       @content ;
     }
   }
-  @if $point == pc {
-    @media ( min-width: 768px ) and ( max-width:1199px) {
+  @if $point == sp-pc {
+    @media ( max-width: 1119px ) {
       @content ;
     }
   }
