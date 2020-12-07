@@ -20,7 +20,7 @@
 .l-header__title {
   display: flex;
   justify-content: space-between;
-  @include breakpoint ( pc ) {
+  @include breakpoint ( wide ) {
     margin: 15px 0 10px;
   }
 }

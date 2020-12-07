@@ -578,7 +578,7 @@ body {
           justify-content: space-between;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .l-header__title {
     margin: 15px 0 10px;
   }
@@ -956,6 +956,10 @@ body {
   background: #2498B3;
 }
 
+.p-gnavi-ham {
+  display: none;
+}
+
 .p-gnavi-ham ul {
   display: block;
 }
@@ -1202,8 +1206,8 @@ body {
   margin-top: 50px;
 }
 
-@media (min-width: 768px) {
-  .u-mt70__pc {
+@media (min-width: 1200px) {
+  .u-mt70__wide {
     margin-top: 70px;
   }
 }

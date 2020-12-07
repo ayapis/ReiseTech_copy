@@ -14,8 +14,8 @@
   margin-top: 50px;
 }
 
-.u-mt70__pc {
-  @include breakpoint ( pc ) {
+.u-mt70__wide {
+  @include breakpoint ( wide ) {
     margin-top: 70px;
   }
 }
