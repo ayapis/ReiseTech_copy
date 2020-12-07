@@ -5,7 +5,7 @@
   background: #000;
   padding: 64px 0px;
   text-align: center;
-  @include breakpoint ( pc ) {
+  @include breakpoint ( pc-wide ) {
     margin-top: -250px;
   }
 }
@@ -19,7 +19,7 @@
   &:last-of-type {
     margin-bottom: 0;
   }
-  @include breakpoint ( pc ) {
+  @include breakpoint ( pc-wide ) {
     width: 229px;
     margin: 0 50px;
   }

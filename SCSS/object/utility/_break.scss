@@ -1,6 +1,6 @@
 .break {
     &::before {
-      @include breakpoint( pc ) {
+      @include breakpoint( pc-wide ) {
         content: "\A";
         white-space: pre;
       }

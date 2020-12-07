@@ -13,7 +13,7 @@
   &:last-of-type {
     border-bottom: none;
   }
-  @include breakpoint ( pc ) {
+  @include breakpoint ( pc-wide ) {
     display: flex;
     padding: 20px 0px;
   }

@@ -10,7 +10,7 @@
   font-weight: 700;
   margin: auto;
   text-align: left;
-  @include breakpoint ( pc ) {
+  @include breakpoint ( pc-wide ) {
     width: 100%;
   }
 }

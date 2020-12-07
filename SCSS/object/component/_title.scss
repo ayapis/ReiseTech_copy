@@ -26,7 +26,7 @@
   color: $color-mainFont;
   text-align: center;
   position: relative;
-  @include breakpoint ( pc ) {
+  @include breakpoint ( pc-wide ) {
     font-size: 3.2rem;
   }
   &::before {
@@ -55,7 +55,7 @@
 
 .c-title-sub {
   font-size: 2.1rem;
-  @include breakpoint ( pc ) {
+  @include breakpoint ( pc-wide ) {
     font-size: 3.4rem;
   }
 }

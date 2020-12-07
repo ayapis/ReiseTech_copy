@@ -7,7 +7,7 @@
   background-attachment: fixed;
   // ここのpositionがないと.p-hero_layer1のabusoluteの起点がウィンドウになってレイアウトが崩れる
   position: relative;
-  @include breakpoint ( pc ) {
+  @include breakpoint ( pc-wide ) {
     height: 650px;
   }
   // padding-bottom: 320px;
@@ -32,7 +32,7 @@
   z-index: 100;
   // align-items: flex-start;
   // justify-content: center;
-  @include breakpoint ( pc ) {
+  @include breakpoint ( pc-wide ) {
     position: absolute;
     top: 0;
     background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
@@ -59,7 +59,7 @@
   transition-property: background-position;
   transition-duration: .7s;
   transition-delay: .035s;
-  @include breakpoint ( pc ) {
+  @include breakpoint ( pc-wide ) {
     position: absolute;
     top: 0;
     background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");

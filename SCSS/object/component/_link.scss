@@ -6,7 +6,7 @@
   a {
     text-decoration: underline;
   }
-  @include breakpoint ( pc ) {
+  @include breakpoint ( pc-wide ) {
     font-size: 1.8rem;
     &:hover {
       background: $color-hover;

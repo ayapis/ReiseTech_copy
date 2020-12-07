@@ -7,7 +7,7 @@
   padding: 23px 0px 13px;
   text-align: center;
   background: #fff;
-  @include breakpoint ( pc ) {
+  @include breakpoint ( pc-wide ) {
     width: auto;
     max-width: 530px;
     padding: 43px 40px 19px;
@@ -23,7 +23,7 @@
   font-size: 1.3rem;
   font-weight: 700;
   text-align: center;
-  @include breakpoint ( pc ) {
+  @include breakpoint ( pc-wide ) {
     font-size: 1.6rem;
     margin-top: 20px;
     margin-bottom: 10px;

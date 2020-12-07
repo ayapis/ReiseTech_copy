@@ -29,7 +29,7 @@
   height: 30px;
   width: auto;
   margin: 10px;
-  @include breakpoint ( pc ) {
+  @include breakpoint ( wide ) {
     height: auto;
     margin: 0 16px 0 20px;
   }
