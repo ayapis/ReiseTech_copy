@@ -9,7 +9,7 @@
       @content ;
     }
   }
-  @if $point == sp-pc {
+  @if $point == sppc {
     @media ( max-width: 1119px ) {
       @content ;
     }

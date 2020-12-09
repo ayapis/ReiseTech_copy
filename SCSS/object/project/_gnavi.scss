@@ -1,12 +1,32 @@
 .p-gnavi__list {
   display: flex;
+  position: relative;
+}
+
+.p-gnavi__subList {
+  display: none;
+  color: $color-text-2;
+  font-weight: 400;
+  position: absolute;
+  background: $color-lightbg;
+  line-height: 50px;
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    &:hover {
+      color: $color-base_dark;
+      background: #fff;
+    }
+  }
 }
 
 .p-gnavi__list__item {
   height: 70px;
   line-height: 70px;
   color: $color-text-2;
-  a {
+  > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -27,15 +47,15 @@
 }
 
 .p-gnavi-ham {
-    // display: none;
     ul {
       display: block;
       li {
         height: 45px;
         background: #fff;
-        &:last-of-type {
-          display: none;
+        a {
+          width: 100%;
+          height: 100%;
         }
       }
     }
-}
+  }
