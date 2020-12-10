@@ -15,10 +15,10 @@ $(function(){
   });
   $(".p-gnavi__list__item").hover(
     function() {
-      $(".p-gnavi__subList", this).slideDown(200);
+      $(".p-gnavi__subList", this).stop().slideDown(200);
     },
     function() {
-      $(".p-gnavi__subList", this).slideUp(100);
+      $(".p-gnavi__subList", this).stop().slideUp(100);
     }
   );
 });
