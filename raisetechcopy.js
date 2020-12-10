@@ -12,6 +12,11 @@ $(function(){
   });
   $('#ham').on('click', function(){
     $('#navi').slideToggle('p-gnavi-ham');
+    if ($(this).hasClass('nav_toggle-close')){
+      $(this).removeClass('nav_toggle-close');
+  } else {
+      $(this).addClass('nav_toggle-close');
+  }
   });
   $(".p-gnavi__list__item").hover(
     function() {

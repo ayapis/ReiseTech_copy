@@ -748,6 +748,7 @@ body {
   position: relative;
   width: 50px;
   height: 50px;
+  background: #fff;
 }
 
 .nav_toggle i {
@@ -770,8 +771,31 @@ body {
   top: 35px;
 }
 
-.is-active {
-  display: block;
+.nav_toggle-close {
+  background-color: #2498B3;
+}
+
+.nav_toggle-close i {
+  background-color: #fff;
+  left: 0px;
+}
+
+.nav_toggle-close i:nth-child(1) {
+  top: 25px;
+  width: 50px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.nav_toggle-close i:nth-child(2) {
+  display: none;
+}
+
+.nav_toggle-close i:nth-child(3) {
+  top: 25px;
+  width: 50px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .c-title {
