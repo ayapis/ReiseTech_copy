@@ -1,15 +1,21 @@
 .p-gnavi__list {
   display: flex;
   position: relative;
+  z-index: 400;
+  @include breakpoint ( sp-pc ) {
+    display: none;
+  }
 }
 
 .p-gnavi__subList {
   display: none;
   color: $color-text-2;
   font-weight: 400;
-  position: absolute;
   background: $color-lightbg;
   line-height: 50px;
+  @include breakpoint ( wide ) {
+    position: absolute;
+  }
   a {
     display: block;
     width: 100%;
@@ -23,7 +29,7 @@
 }
 
 .p-gnavi__list__item {
-  height: 70px;
+  // height: 70px;
   line-height: 70px;
   color: $color-text-2;
   > a {
@@ -47,10 +53,11 @@
 }
 
 .p-gnavi-ham {
-    ul {
+  display: none;
+    > ul {
       display: block;
       li {
-        height: 45px;
+        // height: 45px;
         background: #fff;
         a {
           width: 100%;

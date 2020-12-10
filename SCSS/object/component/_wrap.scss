@@ -9,10 +9,9 @@
 .c-wrap-service {
   @include breakpoint ( pc-wide ) {
     display: flex;
-    // justify-content: space-around;
     justify-content: center;
     position: relative;
-    z-index: 1000;
+    z-index: 200;
   }
 }
 

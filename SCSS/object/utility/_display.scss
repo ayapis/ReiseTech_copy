@@ -14,6 +14,14 @@
   }
 }
 
+// 1200px以上のとき表示かつflex
+.u-forwide {
+  display: none;
+  @include breakpoint ( wide ) {
+    display: flex;
+  }
+}
+
 // 1200px以上のとき非表示
 .u-forsp-pc {
   @include breakpoint ( wide ) {
