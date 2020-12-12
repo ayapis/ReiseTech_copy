@@ -15,7 +15,7 @@
 }
 
 // 1200px以上のとき表示かつflex
-.u-forwide {
+.u-forwide-flex {
   display: none;
   @include breakpoint ( wide ) {
     display: flex;

@@ -21,9 +21,11 @@ $(function(){
   $(".p-gnavi__list__item").hover(
     function() {
       $(".p-gnavi__subList", this).stop().slideDown(200);
+      $(this).addClass('p-gnavi__list__item-open');
     },
     function() {
       $(".p-gnavi__subList", this).stop().slideUp(100);
+      $(this).removeClass('p-gnavi__list__item-open');
     }
   );
 });
