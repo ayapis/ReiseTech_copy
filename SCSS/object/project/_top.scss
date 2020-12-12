@@ -11,6 +11,7 @@
     width: auto;
     max-width: 530px;
     padding: 43px 40px 19px;
+    border-radius: 10px;
   }
 }
 
@@ -26,7 +27,7 @@
   @include breakpoint ( pc-wide ) {
     font-size: 1.6rem;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
 }
