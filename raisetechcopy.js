@@ -28,4 +28,23 @@ $(function(){
       $(this).removeClass('p-gnavi__list__item-open');
     }
   );
+
+  // $('.slick01').slick();
+  $('.slick01').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+    nextArrow: '<button class="slide-arrow next-arrow"></button>',
+    mobileFirst: true,
+    responsive: [{
+      breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+      }
+    }
+    ]
+  });
 });

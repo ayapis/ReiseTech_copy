@@ -1,5 +1,9 @@
 .c-banner {
   width: 95vw;
   max-width: 562px;
-  margin: 32px 0px;
+  margin: 44px auto;
+  @media ( min-width: 600px ) {
+    width: 45vw;
+    max-width: 535px;
+  }
 }

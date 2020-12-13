@@ -13,7 +13,9 @@
 
     <!-- FontAwesomeの読み込み -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <!-- CSSの読み込み -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- jQueryの読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
@@ -92,9 +94,12 @@
         </ul>
       </section>
       <aside class="p-pr">
-        <div class="c-wrap">
-          <a href="#"><img src="images/new-student-banner.jpg" alt="学割のバナー"  class="c-banner"></a>
-        </div>
+        <ul class="slick01 c-wrap">
+          <li><img class="c-banner" alt="画像1" src="images/new-banner_template-05.jpg"></li>
+          <li><img class="c-banner" alt="画像2" src="images/new-student-banner.jpg"></li>
+          <li><img class="c-banner" alt="画像3" src="images/lstep-bn-1.jpg"></li>
+          <li><img class="c-banner" alt="画像4" src="images/free-info-banner-02.jpg"></li>
+        </ul>
       </aside>
       <section class="p-news u-pd-tb">
         <div class="c-wrap c-wrap-news">
@@ -141,9 +146,12 @@
         </div>
       </section>
       <aside class="p-pr">
-        <div class="c-wrap">
-          <a href="#"><img src="images/new-banner_template-05.jpg" alt="早割のバナー"  class="c-banner"></a>
-        </div>
+        <ul class="slick01 c-wrap">
+          <li><img class="c-banner" alt="画像1" src="images/new-banner_template-05.jpg"></li>
+          <li><img class="c-banner" alt="画像2" src="images/new-student-banner.jpg"></li>
+          <li><img class="c-banner" alt="画像3" src="images/lstep-bn-1.jpg"></li>
+          <li><img class="c-banner" alt="画像4" src="images/free-info-banner-02.jpg"></li>
+        </ul>
       </aside>
     </main>
     <footer class="l-footer">
@@ -201,6 +209,8 @@
       </div>
     </footer>
     
+    <!-- slickの読み込み -->
+    <script type="text/javascript" src="slick.min.js"></script>
     <script src="raisetechcopy.js"></script>
   </body>
 </html>
