@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*! destyle.css v2.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
 /* ============================================ */
@@ -1150,7 +1149,7 @@ body {
 
 .p-hero {
   height: 320px;
-  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero3.png");
+  background-image: url("../images/bg-hero3.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1167,7 +1166,7 @@ body {
 .p-hero_layer1 {
   position: absolute;
   top: 0;
-  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
+  background-image: url("../images/bg-hero1.png");
   width: 100%;
   height: 100%;
   background-position: center -30px;
@@ -1186,7 +1185,7 @@ body {
   .p-hero_layer1 {
     position: absolute;
     top: 0;
-    background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero1.png");
+    background-image: url("../images/bg-hero1.png");
     width: 100%;
     height: 100%;
     padding-top: 80px;
@@ -1206,7 +1205,7 @@ body {
 .p-hero_layer2 {
   position: absolute;
   top: 0;
-  background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");
+  background-image: url("../images/bg-hero2.png");
   width: 100%;
   height: 100%;
   background-position: center -30px;
@@ -1224,7 +1223,7 @@ body {
   .p-hero_layer2 {
     position: absolute;
     top: 0;
-    background-image: url("/Users/ayaka/Desktop/模写コーディング５/images/bg-hero2.png");
+    background-image: url("../images/bg-hero2.png");
     width: 100%;
     height: 100%;
     background-position: center center;
