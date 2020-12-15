@@ -7,7 +7,7 @@
 // }
 
 .slide-arrow{
-  // display: none;
+  display: none;
   position: absolute;
   top: 50%;
   // margin-top: -15px;
@@ -16,6 +16,7 @@
   // }
 }
 .prev-arrow{
+  display: none;
   left: -40px;
   width: 0;
   height: 0;
@@ -25,6 +26,7 @@
   border-bottom: 10px solid transparent;
 }
 .next-arrow{
+  display: none;
   right: -40px;
   width: 0;
   height: 0;

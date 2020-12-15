@@ -763,11 +763,13 @@ body {
 }
 
 .slide-arrow {
+  display: none;
   position: absolute;
   top: 50%;
 }
 
 .prev-arrow {
+  display: none;
   left: -40px;
   width: 0;
   height: 0;
@@ -778,6 +780,7 @@ body {
 }
 
 .next-arrow {
+  display: none;
   right: -40px;
   width: 0;
   height: 0;
@@ -861,6 +864,19 @@ body {
   text-align: center;
 }
 
+.c-title-course {
+  line-height: 1.4;
+}
+
+.c-title-course_point {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #2498B3;
+  border: 2px solid #2498B3;
+  border-radius: 5px;
+}
+
 .c-title-footer {
   font-size: 1.8rem;
   font-weight: 700;
@@ -936,10 +952,6 @@ body {
   border: 1px solid #C3C3C3;
 }
 
-.c-wrap-feature {
-  margin-bottom: 35px;
-}
-
 @media (min-width: 768px) {
   .c-wrap-feature {
     display: -webkit-box;
@@ -948,7 +960,6 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 50px;
   }
 }
 
@@ -959,6 +970,10 @@ body {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
+}
+
+.c-wrap-course {
+  background: #fff;
 }
 
 .c-wrap-footer {
@@ -980,6 +995,12 @@ body {
       flex-wrap: wrap;
 }
 
+.p-course {
+  width: 100vw;
+  background: -webkit-gradient(linear, left top, right top, from(#f3fafb), to(#e9f8fb));
+  background: linear-gradient(to right, #f3fafb 0%, #e9f8fb 100%);
+}
+
 @media (min-width: 768px) {
   .p-feature_intro {
     width: 60%;
@@ -999,6 +1020,12 @@ body {
   display: flex;
   position: relative;
   z-index: 400;
+}
+
+@media (max-width: 1119px) {
+  .p-gnavi__list {
+    display: none;
+  }
 }
 
 .p-gnavi__subList {
@@ -1322,10 +1349,14 @@ body {
   }
 }
 
+.break::before {
+  content: "\A";
+  white-space: pre;
+}
+
 @media (min-width: 768px) {
   .break::before {
-    content: "\A";
-    white-space: pre;
+    display: none;
   }
 }
 
@@ -1395,8 +1426,26 @@ body {
   margin-bottom: 20px;
 }
 
+.u-mb35 {
+  margin-bottom: 35px;
+}
+
 .u-mb50 {
   margin-bottom: 50px;
+}
+
+.u-mb65 {
+  margin-bottom: 65px;
+}
+
+@media (min-width: 768px) {
+  .u-mb35-pc {
+    margin-bottom: 50px;
+  }
+}
+
+.u-ml10 {
+  margin-left: 10px;
 }
 
 .u-mt50 {
@@ -1409,16 +1458,23 @@ body {
   }
 }
 
-.u-pd-rl {
+.u-pd-rl10 {
+  padding: 0px 10px;
+}
+
+.u-pd-rl20 {
   padding: 0px 20px;
 }
 
 .u-pd-tb {
-  margin-top: 64px;
-  margin-bottom: 64px;
+  padding: 64px 0;
 }
 
 .u-pd-r18 {
   padding-right: 18px;
+}
+
+.u-pd20 {
+  padding: 20px;
 }
 /*# sourceMappingURL=style.css.map */

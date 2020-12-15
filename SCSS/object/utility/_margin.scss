@@ -10,10 +10,30 @@
   margin-bottom: 20px;
 }
 
+
+.u-mb35 {
+  margin-bottom: 35px;
+}
+
 .u-mb50 {
   margin-bottom: 50px;
 }
 
+.u-mb65 {
+  margin-bottom: 65px;
+}
+
+.u-mb35-pc {
+  @include breakpoint ( pc-wide ) {
+    margin-bottom: 50px;
+  }
+}
+
+.u-ml10 {
+  margin-left: 10px;
+}
+
+// mainタグで使用
 .u-mt50 {
   margin-top: 50px;
 }

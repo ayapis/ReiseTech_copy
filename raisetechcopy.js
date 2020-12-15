@@ -35,12 +35,14 @@ $(function(){
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1000,
-    prevArrow: '<button class="slide-arrow prev-arrow"></button>',
-    nextArrow: '<button class="slide-arrow next-arrow"></button>',
+    prevArrow: false,
+    nextArrow: false,
     mobileFirst: true,
     responsive: [{
       breakpoint: 600,
-        settings: {
+      settings: {
+          prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+          nextArrow: '<button class="slide-arrow next-arrow"></button>',
           slidesToShow: 2,
           slidesToScroll: 1,
       }

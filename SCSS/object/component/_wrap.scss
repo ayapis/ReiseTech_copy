@@ -20,17 +20,19 @@
 }
 
 .c-wrap-feature {
-  margin-bottom: 35px;
   @include breakpoint ( pc-wide ) {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
   }
   &:nth-of-type(even) {
     @include breakpoint ( pc-wide ) {
       flex-direction: row-reverse;
     }
   }
+}
+
+.c-wrap-course {
+  background: #fff;
 }
 
 .c-wrap-footer {
