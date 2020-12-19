@@ -18,21 +18,32 @@
 
 .c-title-course {
   line-height: 1.4;
+  @include breakpoint ( pc-wide ) {
+    font-size: 2.8rem;
+  }
 }
 
 .c-title-course_sub {
   font-size: 1.8rem;
   color: $color-text-3;
   font-weight: 700;
+  @include breakpoint ( pc-wide ) {
+    font-size: 2.1rem;
+  }
 }
 
 .c-title-course_point {
+  display: inline-block;
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 1;
   color: $color-base_dark;
   border: 2px solid $color-base_dark;
   border-radius: 5px;
+  @include breakpoint ( pc-wide ) {
+    font-size: 1.6rem;
+    vertical-align: middle;
+  }
 }
 
 .c-title-footer {

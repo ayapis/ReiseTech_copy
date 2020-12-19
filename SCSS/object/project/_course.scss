@@ -3,17 +3,17 @@
   background: linear-gradient(to right, $color-hover-3 0%, $color-lightbg 100%);
 }
 
-.p-course_image {
+.p-course_intro {
   @include breakpoint ( pc-wide ) {
-    width: 35%;
+    width: 62%;
   }
 }
 
-.p-course_list {
+.p-course_intro_list {
   padding-left: 40px;
 }
 
-.p-course_item {
+.p-course_intro_item {
   position: relative;
   &::before {
     position: absolute;
@@ -23,5 +23,11 @@
     font-weight: 400;
     font-family: "Font Awesome 5 Free";
     color: $color-base_dark;
+  }
+}
+
+.p-course_image {
+  @include breakpoint ( pc-wide ) {
+    width: 35%;
   }
 }

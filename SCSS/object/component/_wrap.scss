@@ -33,6 +33,10 @@
 
 .c-wrap-course {
   background: #fff;
+  @include breakpoint ( pc-wide ) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .c-wrap-footer {
